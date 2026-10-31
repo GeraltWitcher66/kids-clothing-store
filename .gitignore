@@ -134,3 +134,8 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Local-only artifacts (not part of the static site)
+/raw/
+/2026-*.png
+*.docx

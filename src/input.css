@@ -3,6 +3,10 @@
 @source "../index.html";
 @source "../product.html";
 @source "../cart.html";
+@source "../shop.html";
+@source "../about.html";
+@source "../contact.html";
+@source "../faq.html";
 
 @font-face {
   font-family: "Vazirmatn";
@@ -87,5 +91,14 @@
   }
   .rating-star {
     @apply h-3.5 w-3.5 fill-sun-400 text-sun-400;
+  }
+  .faq-minus {
+    display: none;
+  }
+  details[open] > summary .faq-plus {
+    display: none;
+  }
+  details[open] > summary .faq-minus {
+    display: inline-block;
   }
 }
