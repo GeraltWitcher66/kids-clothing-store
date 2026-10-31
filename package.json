@@ -1,0 +1,16 @@
+{
+  "name": "kids-clothing-store",
+  "version": "1.0.0",
+  "description": "Design-only Persian RTL kids clothing store (front-end)",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./assets/css/style.css --minify",
+    "dev": "tailwindcss -i ./src/input.css -o ./assets/css/style.css --watch"
+  },
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3",
+    "vazirmatn": "^33.0.3"
+  }
+}
